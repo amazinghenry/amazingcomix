@@ -1,0 +1,58 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.link-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item {
+    margin: 0 10px;
+    color: var(--lite-clr);
+    text-decoration: none;
+}
+
+.link-item:hover {
+    text-decoration: underline;
+}
+
+.main-logo {
+    color: var(--pri-clr);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.signup-link {
+    color: var(--pri-clr);
+    text-decoration: none;
+}
+
+.profile_name {
+    color: #fff;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.link-item-signout {
+    text-decoration: none;
+    color: var(--pri-clr);
+}
+
+.signedin-group {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    nav {
+        flex-direction: column;
+    }
+}

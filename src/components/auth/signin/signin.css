@@ -1,0 +1,57 @@
+.signin_form_wrapper {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.signin_form_wrapper h2 {
+    color: var(--pri-clr);
+}
+
+.signin_form_wrapper p {
+    color: #fff;
+}
+
+.sign_form {
+    margin:30px auto;
+    width: 600px;
+}
+
+@media screen and (max-width: 760px) {
+    .sign_form {
+        width: 100%;
+    }
+}
+
+.forgot_password {
+    color: aqua;
+}
+
+.signin_input {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.signin_button {
+    background-color: var(--pri-clr);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.non_member {
+    color: #fff;
+    margin: 10px 0;
+}
+
+.error_message {
+    color: #ff8484;
+    margin: 0 auto;
+    padding: 8px;
+    max-width: max-content;
+    border-radius: 4px;
+}

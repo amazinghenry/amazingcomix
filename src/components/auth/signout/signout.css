@@ -1,0 +1,27 @@
+.signout-prompt {
+    text-align: center;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.cancel-signout {
+    background-color: #a1a1a1;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+}
+
+.logout-button {
+    background-color: #dd4f4f;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+}
+
+.signout-prompt h2 {
+    margin-bottom: 40px;
+}
